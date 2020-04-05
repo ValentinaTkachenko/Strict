@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "LatoRegular";
+	src: url("../font/Lato-Regular.woff") format("woff");
+	src: url("../font/Lato-Regular.woff2") format("woff2");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "LatoBold";
+	src: url("../font/Lato-Bold.woff") format("woff");
+	src: url("../font/Lato-Bold.woff2") format("woff2");
+
+	font-style: normal;
+	font-weight: normal;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrap {
+	margin: 0 auto;
+	max-width: 1170px;
+	font-family: "LatoRegular", sans-serif;
+}
+.flex_block_column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.flex_row_block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.header__logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+}
+.header__logo__item {
+	padding: 30px 8px;
+	align-self: center;
+	font-family: "LatoBold", sans-serif;
+	font-size: 30px;
+}
+.header__block {
+	background: url("../img/main.png") no-repeat center center fixed;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 217px 0;
+}
+.header__title__block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.header__title {
+	font-family: "LatoBold", sans-serif;
+	font-size: 120px;
+	color: #ffffff;
+	/* padding-top: 217px;	 */
+}
+.header__text__block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.header__text {
+	font-family: "LatoRegular" serif;
+	font-size: 20px;
+	color: #ffffff;
+}
+.header__button {
+	border: 1px solid #15a4fa;
+	border-radius: 3px;
+	padding: 22px 33px 20px 35px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: "LatoRegular" sans-serif;
+	font-size: 18px;
+}
+.header__line {
+}
+.header-arrow {
+	
+}
+.word__uppercase {
+	text-transform: uppercase;
+}
+
+/* header сделать с картинкой, уменьшается масшатб все съезжает// растояние между элементами */
+.main__text__block {
+	padding: 80px 0;
+}
+.text__design__block {
+	width: 100vw;
+	background-color: #f6f9f9;
+	text-align: center;
+}
+.design__title {
+	font-size: 40px;
+	color: #2d3950;
+	padding-bottom: 20px;
+}
+.design__text {
+	font-size: 20px;
+	color: #b2b3b3;
+	line-height: 1.6;
+
+}
+  /* .text__design__block не соответствуют отступы */
+.conteiner-icon {
+	text-align: center;
+	padding: 65px;
+}
+.icon__block {
+	padding: 0 50px;
+}
+.title__text__block {
+	font-size: 22px;
+	color: #2d3950;
+	padding-bottom: 25px;
+}
+.icon {
+	padding-bottom: 30px;
+}
+.text__block {
+	font-size: 15px;
+	color: #999999;
+}
+/* .icon__block готово, надо понять кнопки ли это */
+.block__image__title {
+	font-size: 41px;
+	color: #2d3950;
+	padding: 80px 0 30px 0;
+}
+.block__image__text {
+	font-size: 15px;
+	color: #909090;
+	padding-bottom: 80px;
+}
+.image {
+	flex-wrap: wrap;
+	padding-bottom: 116px;
+}
+.image img {
+	padding: 12px 15px;
+}
+.conteiner__form {
+	background-image: url("../img/bgform.png");
+	background-repeat: no-repeat;
+	width: 100vw;
+}
+.form__text__block {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.form__title {
+	font-size: 41px;
+	color: #ffffff;
+	padding-bottom: 28px;
+}
+.form__text {
+	font-size: 15px;
+	color: #999999;
+}
+form {
+	box-sizing: border-box;
+}
+.form__elem {
+	background: transparent;
+	width: 550px;
+	margin-bottom: 20px;
+}
+
+  
