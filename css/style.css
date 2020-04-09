@@ -157,9 +157,7 @@
 	flex-wrap: wrap;
 	padding-bottom: 116px;
 }
-.image img {
-	padding: 12px 15px;
-}
+
 .conteiner__form {
 	background-image: url("../img/bgform.png");
 	background-repeat: no-repeat;
@@ -237,3 +235,30 @@ form {
 .social img {
 	padding: 0 2.5px;
 } 
+
+
+.galery__item {
+	position: relative;
+	overflow: hidden;
+}
+.galery__item:nth-of-type(n+4) {
+	margin-top: 20px;
+}
+.galery__controls {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	background-color: rgba(84, 115, 171, 0.8);
+	transform: translateY(-100%);
+	transition: 0.8s;
+}
+.galery__item:hover .galery__controls {
+	transition: 0.8s;
+	transform: translateY(0%);
+}
